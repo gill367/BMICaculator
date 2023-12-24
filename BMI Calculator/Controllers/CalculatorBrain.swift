@@ -50,7 +50,7 @@ struct CalculatorBrain {
         let feet = Int(Int(inches) / 12)
         let remainingInches = inches - Float(feet * 12)
         let inchesValue = String(format:"%.0f", remainingInches)
-        let heightInFeet = "\(feet)ft. \(inchesValue) inch"
+        let heightInFeet = "\(feet)ft. \(inchesValue) in."
         return heightInFeet
     }
     
